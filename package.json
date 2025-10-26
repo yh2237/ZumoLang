@@ -3,11 +3,13 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "bin": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --targets node18-win-x64 --output ./dist/zumo"
   },
   "keywords": [],
   "author": "",
