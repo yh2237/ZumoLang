@@ -15,5 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "pkg": "^5.8.1"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
   }
 }

@@ -2,3 +2,5 @@ package-lock.json
 zumo.exe
 dist/
 node_modules/
+assets/
+copy.bat
