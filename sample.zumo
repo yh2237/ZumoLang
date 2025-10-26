@@ -1,0 +1,27 @@
+ｽﾞズ[0] "Rei";
+ｽﾞモ[1] 100;
+ズモ ﾓﾓ[0];
+ズモ ﾓﾓ[1];
+
+モｽﾞ (ﾓﾓ[1] == 100) {
+    ズモ "if block: OK";
+} else {
+    ズモ "if block: NG";
+}
+
+モｽﾞ (ﾓﾓ[1] == 99) {
+    ズモ "else if block: NG";
+} else モｽﾞ (ﾓﾓ[0] == "Rei") {
+    ズモ "else if block: OK";
+} else {
+    ズモ "else if block: NG";
+}
+
+モﾓ (ｽﾞモ[2] = 0; ﾓﾓ[2] < 3; ｽﾞモ[2] = ﾓﾓ[2] + 1) {
+    ズモ "Loop " + ﾓﾓ[2];
+}
+
+モズ NameAdd(name) {
+    ズモ "Adachi " + name;
+};
+モモ NameAdd("Rei");
